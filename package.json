@@ -1,0 +1,31 @@
+{
+  "name": "ui-code-test",
+  "version": "1.0.0",
+  "description": "Deepfield UI Code Test",
+  "main": "index.js",
+  "author": "Deepfield",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "yarn build && nodemon server/index.js --ignore dist/ --ignore public/",
+    "watch": "parcel watch public/index.html --public-url /",
+    "build": "parcel build public/index.html --public-url /",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.14.11",
+    "parcel-bundler": "^1.5.1"
+  }
+}

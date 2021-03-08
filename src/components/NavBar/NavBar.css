@@ -1,0 +1,24 @@
+.NavBarContainer {
+  flex-grow: 1;
+  background-color: white;
+  border-bottom: 2px ridge purple;
+}
+
+.menuButton {
+  color: #3D023F;
+}
+
+.title {
+  position: absolute;
+  right: 56px;
+  font-family: math;
+  font-size: 33px;
+  color: #3D023F;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  font-size: 43px;
+}

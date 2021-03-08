@@ -1,0 +1,16 @@
+.errorLoading {
+  display: flex;
+  flex-direction: column;
+  font-size: 52px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.errorIcon {
+  font-size: 100px;
+}
+
+@media (min-width: 805px) {
+  .errorLoading { top: 75%; }
+}

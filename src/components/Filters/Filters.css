@@ -1,0 +1,77 @@
+.dropdownContainer {
+  padding: 20px;
+}
+
+.optionsContainer,
+.displayOptions {
+  max-width: 1200px;
+  margin: 20px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+@media (min-width: 805px) {
+  .optionsContainer { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 805px) {
+  .displayOptions { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+.optionsContainer,
+.displayOptions {
+  margin: 20px;
+}
+
+.displayCountContainer{
+  width: 100%;
+}
+
+.buttonsContainer{
+  display: flex;
+}
+
+.numberedBtn {
+  border: 1px solid black;
+  border-radius: 0.25px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.numberedBtn.selected{
+  background-color: #3D023F;
+  color: white;
+}
+
+.clearContainer{
+  text-align: center;
+}
+
+.buttonsContainer button:hover,
+.clearFilter:hover {
+  background-color: purple;
+  color: white;
+}
+
+.clearFilter,
+.MuiPaginationItem-page.Mui-selected {
+  background-color: #3D023F;
+  color: white;
+}
+
+
+.displaySelect {
+  padding: 0px;
+    min-width: 31px;
+    border-radius: 0px;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+
+.MuiPaginationItem-page.Mui-selected:hover,
+.MuiMenuItem-root:hover {
+  background-color: purple;
+  color: white;
+}
